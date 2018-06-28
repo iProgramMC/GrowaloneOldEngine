@@ -33,8 +33,6 @@ namespace GrowaloneXNAEdition
 
 		public const int DragSpeed = 10;
 
-		public GalleryOfWorlds gow;
-
 		public Texture2D seedTexture;
 
 		public int seedWidth = 15;
@@ -1525,7 +1523,7 @@ namespace GrowaloneXNAEdition
 				this.slot = base.Content.Load<Texture2D>("bmp");
 				this.handle = base.Content.Load<Texture2D>("Handle");
 				this.HealthMeterTex = base.Content.Load<Texture2D>("HealthMeter");
-				this.GOW_ButtonTex = base.Content.Load<Texture2D>("GalleryOfWorldsButton");
+				//this.GOW_ButtonTex = base.Content.Load<Texture2D>("GalleryOfWorldsButton");
 				this.mnt1 = base.Content.Load<Texture2D>("mountains1");
 				if (this.validMonthsForWinter.Contains(DateTime.Now.Month))
 				{
@@ -1670,7 +1668,6 @@ namespace GrowaloneXNAEdition
 			this.JumpEffect = base.Content.Load<SoundEffect>("Sound FX\\jump");
 			this.PickupEffect = base.Content.Load<SoundEffect>("Sound FX\\pickup");
 			this.ExplosionEffect = base.Content.Load<SoundEffect>("Sound FX\\explosion_long");
-			this.gow = new GalleryOfWorlds(this);
 		}
 
 		private void Jump()
@@ -2285,14 +2282,6 @@ namespace GrowaloneXNAEdition
 			}
 			if (this.isRunning)
 			{
-				if (this.Screen == ScreenType.GalleryOfWorlds)
-				{
-					this.gow.Update(this);
-				}
-				else
-				{
-					this.gow.MouseClicked = true;
-				}
 				if (this.Screen == ScreenType.TitleScreen || this.Screen == ScreenType.WorldSelect)
 				{
 					this.DebugInfo = false;
@@ -2657,7 +2646,7 @@ namespace GrowaloneXNAEdition
 						}
 						else if (this.gowBtnRect.Contains(new Microsoft.Xna.Framework.Point(state.X, state.Y)))
 						{
-							this.Screen = ScreenType.GalleryOfWorlds;
+							//this.Screen = ScreenType.GalleryOfWorlds;
 						}
 					}
 					else if (ScreenType.WorldSelect == this.Screen)
@@ -4098,7 +4087,6 @@ namespace GrowaloneXNAEdition
 					case ScreenType.AboutScreen:
 						goto IL_D7;
 					case ScreenType.GalleryOfWorlds:
-						base.GraphicsDevice.Clear(this.gow.clearColor);
 						goto IL_13B;
 					}
 					base.GraphicsDevice.Clear(Microsoft.Xna.Framework.Color.FromNonPremultiplied(129, 203, 255, 255));
@@ -4106,7 +4094,8 @@ namespace GrowaloneXNAEdition
 				}
 				IL_D7:
 				base.GraphicsDevice.Clear(Microsoft.Xna.Framework.Color.FromNonPremultiplied(64, 128, 230, 255));
-				IL_13B:;
+				IL_13B:
+                base.GraphicsDevice.Clear(Microsoft.Xna.Framework.Color.FromNonPremultiplied(129,203,255,255));
 			}
 			this.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.PointClamp, null, null, null);
 			if (this.Screen == ScreenType.Playground)
@@ -4172,7 +4161,7 @@ namespace GrowaloneXNAEdition
 				this.spriteBatch.Draw(this.startGameBtnTex, this.startBtnRect, Microsoft.Xna.Framework.Color.White);
 				this.spriteBatch.Draw(this.exitGameBtnTex, this.exitBtnRect, Microsoft.Xna.Framework.Color.White);
 				this.spriteBatch.Draw(this.optionsBtnTex, this.optionsBtnRect, Microsoft.Xna.Framework.Color.White);
-				this.spriteBatch.Draw(this.GOW_ButtonTex, this.gowBtnRect, Microsoft.Xna.Framework.Color.White);
+				//this.spriteBatch.Draw(this.GOW_ButtonTex, this.gowBtnRect, Microsoft.Xna.Framework.Color.White);
 				this.spriteBatch.Draw(this.aboutBtnTex, this.aboutBtnRect, Microsoft.Xna.Framework.Color.White);
 				this.spriteBatch.Draw(this.iProgramMC_Logo, new Microsoft.Xna.Framework.Rectangle(base.GraphicsDevice.Viewport.Width - 10 - 128, base.GraphicsDevice.Viewport.Height - 32 - 10, 128, 32), Microsoft.Xna.Framework.Color.White);
 				this.spriteBatch.Draw(this.GrowaloneLogo, new Vector2((float)this.GrowaloneLogoRect.X, (float)this.GrowaloneLogoRect.Y), null, Microsoft.Xna.Framework.Color.White, this.rotationOfLogo, new Vector2((float)(this.GrowaloneLogo.Width / 2), (float)(this.GrowaloneLogo.Height / 2)), this.scaleOfLogo, SpriteEffects.None, 0f);
@@ -4291,7 +4280,8 @@ namespace GrowaloneXNAEdition
 			{
 				if (this.Screen == ScreenType.GalleryOfWorlds)
 				{
-					this.gow.Draw(this);
+                    spriteBatch.DrawString(defaultFont2, "This is the open source version of Growalone.\nThere is no World Gallery in here. It has been\nremoved for security purposes. Now\nrestart the game!", new Vector2(10, 10), Microsoft.Xna.Framework.Color.Black);
+					//this.gow.Draw(this);
 				}
 			}
 			if (this.msgBoxShown)
