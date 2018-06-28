@@ -1,0 +1,143 @@
+DIALOG_EXIT_TEXT=Press ESC to exit.
+GAME_NAME=Growalone
+
+EXPORT_WORLD_FILTER_DESCRIPTION=Growalone Worlds
+EXPORT_WORLD_TITLE=Export your Growalone world
+
+IMPORT_WORLD_FILTER_DESCRIPTION=Growalone Worlds
+IMPORT_WORLD_TITLE=Import a Growalone world
+
+BETA_TESTING_AGREEMENT=Do you agree with the beta testing of Growalone?
+BETA_TESTING_AGREE_TITLE=Before we start,
+PLAYER_NAME_MESSAGE=What's your name?
+PLAYER_NAME_TITLE=Welcome to Growalone!
+WELCOME_TO_GROWALONE_DESC_START=Welcome to Growalone, 
+WELCOME_TO_GROWALONE_DESC_END=!
+GOODBYE_DESC=Goodbye then.
+GOODBYE_TITLE=:(
+
+EXIT_WORLD_MESSAGE=Exit World
+PUNCH_TREE_MESSAGE_ROW_1= Tree
+PUNCH_TREE_MESSAGE_ROW_2=(Punch to harvest)
+GAMER_NPC_MESSAGE_START=Hello, 
+GAMER_NPC_MESSAGE_END=, Would you like to help me fix my PC? I broke it :(, I need your help! Please!!
+
+DROP_ITEM_DESC=How many to drop?
+DROP_ITEM_TITLE=Drop 
+DROP_ITEM_NEGATIVE=I can't drop negative items.
+DROP_ITEM_MORE=I can't drop more than I have.
+DROP_ITEM_NOT_A_NUMBER=Type in a NUMBER of items to drop. Not a sentence.
+
+ABOUT_ITEM_TITLE=About 
+
+TRASH_ITEM_DESC1=Are you sure you want to trash 
+TRASH_ITEM_DESC2=? You will not be able to get them back ever again!
+TRASH_ITEM_TITLE=Trash 
+
+SHOP_BUY_SMALL_LOCK=Buying a Small Lock costs 50 Coins. Are you sure you want to buy this?
+SHOP_BUY_SMALL_LOCK_NO_SPACE=You can't buy a Small Lock for 50 gems :(. You will need to trash some items before continuing.
+SHOP_BUY_SMALL_LOCK_1=You now have 
+SHOP_BUY_SMALL_LOCK_2= Coins left. Got 1 Small Lock.
+SHOP_BUY_SMALL_LOCK_NO_COINS=You don't have enough Coins to buy this! Go get more by smashing some blocks!
+
+SHOP_BUY_MEDIUM_LOCK=Buying a Medium Lock costs 100 Coins. Are you sure you want to buy this?
+SHOP_BUY_MEDIUM_LOCK_NO_SPACE=You can't buy a Medium Lock for 100 Coins :(. You will need to trash some items before continuing.
+SHOP_BUY_MEDIUM_LOCK_1=You now have 
+SHOP_BUY_MEDIUM_LOCK_2= Coins left. Got 1 Medium Lock.
+SHOP_BUY_MEDIUM_LOCK_NO_COINS=You don't have enough Coins to buy this! Go get more by smashing some blocks!
+
+SHOP_BUY_LARGE_LOCK=Buying a Large Lock costs 200 Coins. Are you sure you want to buy this?
+SHOP_BUY_LARGE_LOCK_NO_SPACE=You can't buy a Large Lock for 200 gems :(. You will need to trash some items before continuing.
+SHOP_BUY_LARGE_LOCK_1=You now have 
+SHOP_BUY_LARGE_LOCK_2= Coins left. Got 1 Large Lock.
+SHOP_BUY_LARGE_LOCK_NO_COINS=You don't have enough Coins to buy this! Go get more by smashing some blocks!
+
+SHOP_BUY_WORLD_LOCK=Buying a World Lock costs 500 Coins. Are you sure you want to buy this?
+SHOP_BUY_WORLD_LOCK_NO_SPACE=You can't buy a World Lock for 500 Coins :(. You will need to trash some items before continuing.
+SHOP_BUY_WORLD_LOCK_1=You now have 
+SHOP_BUY_WORLD_LOCK_2= Coins left. Got 1 World Lock.
+SHOP_BUY_WORLD_LOCK_NO_COINS=You don't have enough Coins to buy this! Go get more by smashing some blocks!
+
+SHOP_BUY_INVENTORY=Getting an Inventory Upgrade costs 50 Coins. Are you sure you want to buy this?
+SHOP_BUY_INVENTORY_CANT_UPGRADE=You can't upgrade your backpack anymore! Why would you need more space in the first place?!
+SHOP_BUY_INVENTORY_1=You now have
+SHOP_BUY_INVENTORY_2= Coins left. Got 1 Inventory Upgrade.
+SHOP_BUY_INVENTORY_NO_COINS=You don't have enough Coins to buy this! Go get more by smashing some blocks!
+
+SHOP_BUY_CAKE=Buying a Cake costs 1 Coin. Are you sure you want to buy this?", "Purchase Confirmation
+SHOP_BUY_CAKE_NO_SPACE=You can't buy a Cake for 1 Coin :(. You will need to trash or drop some items before continuing.
+SHOP_BUY_CAKE_1=You now have 
+SHOP_BUY_CAKE_2= Coins left. Got 1 Cake.
+SHOP_BUY_CAKE_NO_COINS=You don't have enough Coins to buy this! Go get more by smashing some blocks!
+SHOP_BUY_CAKE_NOT_AVAILABLE=No more cakes! I guess you had enough! This shop is closed!
+
+SHOP_PURCHASE_FAILED=Purchase Failed!
+SHOP_PURCHASE_SUCCESSFUL=Purchase Successful!
+SHOP_PURCHASE_CONFIRMATION=Purchase Confirmation
+SHOP_PURCHASE_NOT_ENOUGH_SPACE=Not enough space!
+
+ENTER_WORLD_NAME_DESC=World Name:
+ENTER_WORLD_NAME_TITLE=Enter a world
+ENTER_WORLD_NAME_FAIL_DESC=You will need to insert a world name before you can actually start playing! If the world is not created then this will create it for you, but if it is then it will load from there!
+ENTER_WORLD_NAME_FAIL_TITLE=Warning!
+ENTER_WORLD_WORLD_CREATED_1=The world "
+ENTER_WORLD_WORLD_CREATED_2=" has been created.
+ENTER_WORLD_WORLD_ENTERED_1=Welcome to the world "
+ENTER_WORLD_WORLD_ENTERED_2="!
+
+GROWALONE_GAZETTE=The Growalone Gazette
+
+ENTER_WORLD_ERROR_1=Could not enter or create world!
+ENTER_WORLD_ERROR_2=The error code is here:
+ENTER_WORLD_ERROR_3=Please screenshot this error message and report this bug by sending a message at growalonegame@gmail.com!
+ENTER_WORLD_ERROR_4=Thanks for playing Growalone!
+
+MAIN_DOOR_FUTURE=Later, this would exit to the main menu...
+
+SIGN_EDIT_DESC=What would you like to write on this sign?
+SIGN_EDIT_TITLE=Edit Sign
+
+DOOR_EDIT_DEST=Door destination:
+DOOR_EDIT_ID=Door ID:
+DOOR_EDT_DISPLAY=Display Label:
+DOOR_EDIT_TITLE=Edit Door
+
+GAMER_NPC_START_TITLE=Quest Onward!
+GAMER_NPC_QUEST_TITLE=Gamer's Quest
+GAMER_NPC_QUESTLINE_1=Thank you, my son!
+GAMER_NPC_QUESTLINE_2=You went to eBay and bought the components needed. (Not actual coins spent)
+GAMER_NPC_QUESTLINE_3=You built a PC 50%.
+GAMER_NPC_QUESTLINE_4=You finished building the PC.
+GAMER_NPC_QUESTLINE_5=You have installed Windows 10 on this gamer's PC.
+GAMER_NPC_QUEST_FINISHED_TITLE=Gamer's Quest Finished!
+GAMER_NPC_QUEST_FINISHED_DESC=Thank you, my son! I shall reward you 1,000 Coins!
+
+CANNOT_PLACE_LOCK_WORLD_IS_WORLD_LOCKED=Cannot place lock because world has World Lock.
+WORLD_LOCK_CONFIRMATION_DESC=Are you sure you want to place the world lock in this world?! The world will never be editable again, so be careful.
+OTHER_LOCK_CONFIRMATION_DESC=Are you sure you want to place the lock? It won't be breakable so be careful.
+LOCK_CONFIRMATION_TITLE=Lock Confirmation
+LOCK_PLACE_ERROR=Lock Place Error
+
+FOOD_IS_YUM=YUM!
+
+BACKPACK_FULL_HARVEST_TITLE=Harvesting has Failed!
+BACKPACK_FULL_HARVEST_DESC=Backpack Full! Trash any item or upgrade it from the Shop!
+
+TREE_WARNING_TITLE=Tree Warning
+TREE_WARNING_DESC=Cannot smash trees while they are growing!
+
+BACKPACK_FULL_GENERIC=Backpack full!
+
+GROWALONE_CRASH_1=Whoops, Growalone crashed!
+GROWALONE_CRASH_2=The error code is here:
+GROWALONE_CRASH_3=Please screenshot this error message and report this bug by sending a message at growalonegame@gmail.com!
+GROWALONE_CRASH_4=Thanks for playing Growalone!
+GROWALONE_CRASH_TITLE=Whoops, Growalone crashed!
+
+SEED_FUSE_1= and 
+SEED_FUSE_2= Seed have been spliced to create a 
+SEED_FUSE_3= tree!
+
+SEED_FUSE_FAIL_1=Uhm, 
+SEED_FUSE_FAIL_2= and 
+SEED_FUSE_FAIL_3= Seed can't be spliced.
