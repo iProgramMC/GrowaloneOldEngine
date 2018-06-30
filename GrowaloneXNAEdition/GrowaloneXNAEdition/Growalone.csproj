@@ -143,7 +143,6 @@
     <Compile Include="EnemyHorse.cs" />
     <Compile Include="ExecuteCommandAction.cs" />
     <Compile Include="FontEngine.cs" />
-    <Compile Include="GalleryOfWorlds.cs" />
     <Compile Include="GraphicOptions.cs" />
     <Compile Include="Growalone.cs" />
     <Compile Include="GrowaloneMath.cs" />
